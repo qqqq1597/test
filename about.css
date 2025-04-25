@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft JhengHei", sans-serif;
+  background: url('https://www.transparenttextures.com/patterns/gray-jean.png');
+  background-color: #f5f5f5;
+}
+
+.title {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 54px;
+  color: #333;
+  text-align: center;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.album-container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  background: #ffffffcc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.album-container h1 {
+  font-size: 32px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.photo-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.3s;
+}
+
+.photo-card:hover {
+  transform: scale(1.03);
+}
+
+.photo-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.photo-card p {
+  margin-top: 10px;
+  color: #555;
+  font-weight: bold;
+}
+
+.back-link a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 8px 16px;
+  border: 2px solid #aaa;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.back-link a:hover {
+  background: #ddd;
+}
